@@ -4,8 +4,8 @@ import { ProductsComponent } from './products/products.component';
 import { CartComponent } from './cart/cart.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'products', pathMatch: 'full' },
-  { path: 'products', component: ProductsComponent },
+  { path: '', redirectTo: '', pathMatch: 'full' },
+  { path: '', component: ProductsComponent },
   { path: 'cart', component: CartComponent },
 ];
 
